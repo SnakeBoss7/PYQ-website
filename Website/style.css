@@ -1,0 +1,46 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header img
+{
+    height: 8vh;
+    width: 15vw;
+
+}
+.head_list
+{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.sign_up {
+    background-color: #f3f7fe;
+    color: #278EDA;
+    border: 2px solid #278EDA;
+    cursor: pointer;
+    border-radius: 8px;
+    /* width: 130px; */
+    height:6vh;
+    transition: 0.3s;
+    font-size: 2vh;
+    padding: 10px 20px;
+  }
+  
+.sign_up:hover {
+    background-color: #278EDA;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
