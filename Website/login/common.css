@@ -1,0 +1,10 @@
+.pointer:hover
+{
+cursor: pointer;
+}
+.button
+{
+    height: 7vh;
+    width: 90%;
+    text-align: center;
+}
