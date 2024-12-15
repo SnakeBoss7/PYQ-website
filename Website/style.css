@@ -188,9 +188,13 @@ ul
   align-items: flex-start;
   padding-left: 130px;
 }
-.main .left p:first-child
+.main .left img
 {
-  font-size: 1.1vw;
+  height: 100px;
+  width: 100px;
+}
+.main .left p
+{
   color: #3e3d3dbb;
 }
 .main .left p:last-child
